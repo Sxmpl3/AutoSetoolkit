@@ -37,6 +37,7 @@ if [[ $1 == "" ]];then
         echo -e "Para ejecutar el binario siga el siguiente ejemplo:"
 	echo -e ""
 	echo -e "./setoolkit -i"
-	
-	
+
+exit 1
+
 fi

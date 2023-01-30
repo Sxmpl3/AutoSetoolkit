@@ -35,5 +35,8 @@ if [[ $1 == "" ]];then
         echo -e "       \/      \/     \/|__|               \/"
         echo -e ""
         echo -e "Para ejecutar el binario siga el siguiente ejemplo:"
+	echo -e ""
+	echo -e "./setoolkit -i"
+	
 	
 fi

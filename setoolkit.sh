@@ -2,20 +2,9 @@
 
 if [[ $1 == "-i" ]];then
         
-        echo -e ""
-        echo -e ""
-        echo -e  " _________                     .__  ________  "
-        echo -e  "/   _____/__  ___ _____ ______ |  | \_____  \ "
-        echo -e  "\_____   \\  \/  //     \\____ \ |  |   _(__ < "
-        echo -e " /         \>   <|  Y Y  \ |_> >  |__/       \""
-        echo -e "/_______  /__/\_ \__|_|  /   __/|____/______  /"
-        echo -e "        \/      \/     \/|__|               \/"
-        echo -e "Instalando setoolkit.."
-        echo -e ""
-	
         git clone https://github.com/trustedsec/social-engineer-toolkit
 
-	apt install python3-pip 
+	apt install python3-pip -y
 		
         cd social-engineer-toolkit
 

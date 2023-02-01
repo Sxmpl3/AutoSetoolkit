@@ -3,13 +3,17 @@ Herramienta en bash que atumatiza la instalacion de setoolkit, creada con fines 
 
 # Como instalar:
 
-1: apt install git -y
+1: apt update && apt upgrade
 
-2: git clone https://github.com/Sxmpl3/AutoSetoolkit
+2: apt install git -y
 
-3: cd AutoSetoolkit
+3: git clone https://github.com/Sxmpl3/AutoSetoolkit
 
-4: chmod +x setoolkit
+4: cd AutoSetoolkit
 
-5: ./setoolkit -i
+5: chmod +x setoolkit
+
+6: ./setoolkit -i
+
+7: Una vez iniciado el setoolkit, seguir el siguiente orden: 1, 2, 3, 2, IP Publica EC2, facebook.com
 

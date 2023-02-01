@@ -3,7 +3,7 @@ Herramienta en bash que automatiza la instalacion de setoolkit, creada con fines
 
 # Como instalar:
 
-1: apt update && apt upgrade
+1: apt update
 
 2: apt install git -y
 

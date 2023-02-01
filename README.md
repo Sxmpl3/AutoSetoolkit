@@ -11,9 +11,9 @@ Herramienta en bash que automatiza la instalacion de setoolkit, creada con fines
 
 4: cd AutoSetoolkit
 
-5: chmod +x setoolkit
+5: chmod +x setoolkit.sh
 
-6: ./setoolkit -i
+6: ./setoolkit.sh -i
 
 7: Una vez iniciado el setoolkit, seguir el siguiente orden: 1, 2, 3, 2, IP Publica EC2, facebook.com
 

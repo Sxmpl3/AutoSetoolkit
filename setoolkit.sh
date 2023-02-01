@@ -11,16 +11,19 @@ if [[ $1 == "-i" ]];then
         echo -e "/_______  /__/\_ \__|_|  /   __/|____/______  /"
         echo -e "        \/      \/     \/|__|               \/"
         echo -e "Instalando setoolkit.."
-        echo -e ""      
-        sudo git clone https://github.com/trustedsec/social-engineer-toolkit
+        echo -e ""
+	
+        git clone https://github.com/trustedsec/social-engineer-toolkit
 
+	apt install pipx -y
+		
         cd social-engineer-toolkit
 
-        sudo pip3 install requirements.txt
+        pip3 install requirements.txt
 
-        sudo python3 setup.py
+        python3 setup.py
 
-        sudo setoolkit
+        setoolkit
 
 fi 
 

@@ -15,7 +15,7 @@ if [[ $1 == "-i" ]];then
 	
         git clone https://github.com/trustedsec/social-engineer-toolkit
 
-	apt install pipx -y
+	apt install python3-pip 
 		
         cd social-engineer-toolkit
 
